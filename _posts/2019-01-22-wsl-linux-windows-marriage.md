@@ -18,7 +18,7 @@ With a new contract, I had a chance to prepare a full Windows environment for Sc
 - Drivers work. Trackpoint on Ubuntu sucks (ThinkPad W540) and the fingerprint scanner breaks regularly.
 - AcrossCentre, Logichtec Flow, Cortana, DirectX etc. aren't present on Ubuntu.
 
-Windows is made for good UI while Linux/GNU for being a server. Both suck in the opponent's category. Why not combine the best of both worlds?
+Windows is made for good UI while Linux/GNU for being a server. Both suck in the opposite category. Why not combine the best of both worlds?
 
 # Needs
 - git management,
@@ -32,8 +32,8 @@ Windows is made for good UI while Linux/GNU for being a server. Both suck in the
 Why not have everything in a VM? 
 
 **Pros:**
-- availability of MS drivers and some software,
-- using MS battery management,
+- availability of MS drivers and some software.
+- using MS battery management.
 - mouse movement is smooth. They've implemented RDP for Linux!
 - from my observation, the CPU overhead is below 2%.
 - Drive Passthrough works! NTFS won't slow you down (no checkpoints of VMs).
@@ -65,7 +65,7 @@ Windows for Linux subsystem - full Linux OS in a Windows window served by a MS K
 Cons:
 - PowerShell: unable to pass arguments to sbt... [link](https://stackoverflow.com/questions/54130521/sbt-and-command-line-parameters-in-powershell-problem?noredirect=1)
 - poor package management
-- too much too write... check my "There is no ideal OS for a programmer" post
+- check my "There is no ideal OS for a programmer" post for more about it
 
 ## Mix?
 For future blog post: Linux VM only as a server with access by a text terminal.
